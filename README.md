@@ -1,9 +1,24 @@
 CS 122B project. Fabflix by Mustafa Yesilyurt
 
+This was a project I did for my undergraduate degree at UC Irvine. 
+
+Note that none of the AWS instances are on, so testing the code is not possible, but there are several links to Youtube videos that demo the various functions of the code. Feel free to check them out!
+
+Here are the links in order:
+Project 1: https://youtu.be/ljfn_pm5oGQ
+Project 2: https://youtu.be/cFacsYlHPKE
+Project 3: https://youtu.be/AAnl_d9FUpI
+Project 4: https://youtu.be/cFYqSttesQ0
+Project 5: https://youtu.be/CPMghbPXJzA
+Project 5 redux (a bit shorter): https://youtu.be/dndkXLzjbEE
+
+
+Below are detailed descriptions or answers to questions that were required for the assignments.
+
 Project 5:
 
 YouTube link: https://youtu.be/CPMghbPXJzA
-NOTE: This demo is 20 minutes and 22 seconds long and I stopped the third JMeter test at 4 minutes and 35 seconds because I was running out of time. The reason I took so long is because I spent time in the beginning showing that the repos were freshly cloned and using newly built war files. That wasn't explicitly required for this homework, and I don't know why, but I did it anyway and it cost me. If you would like me to rerecord the demo to have it be shorter, I am open to doing that.
+NOTE: This demo is 20 minutes and 22 seconds long and I stopped the third JMeter test at 4 minutes and 35 seconds because I was running out of time. The reason I took so long is because I spent time in the beginning showing that the repos were freshly cloned and using newly built war files. That wasn't explicitly required for this homework, but I did it anyway out of habit and it cost me. If you would like me to rerecord the demo to have it be shorter, I am open to doing that.
 EDIT: I went ahead and rerecorded my project 5 demo. Here is the link: https://youtu.be/dndkXLzjbEE
 
 Unfortunately, a lot of my time was spent trying to fix the problems the graders were having with my submission of Project 4, so I wasn't able to get to all 
