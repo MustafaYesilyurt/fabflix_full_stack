@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+    <!-- Defines a Data Source Connecting to localhost moviedb-->
+<!--    <Resource name="jdbc/moviedb"-->
+<!--              auth="Container"-->
+<!--              driverClassName="com.mysql.jdbc.Driver"-->
+<!--              type="javax.sql.DataSource"-->
+<!--              username="REDACTED"-->
+<!--              password="REDACTED"-->
+<!--              url="jdbc:mysql://localhost:3306/moviedb"/>-->
+
+    <!-- Defines a Data Source Connecting to localhost moviedb-->
+    <Resource name="jdbc/moviedb"
+              auth="Container"
+              driverClassName="com.mysql.jdbc.Driver"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              type="javax.sql.DataSource"
+              maxTotal="100" maxIdle="10" maxWaitMillis="10000"
+              username="REDACTED"
+              password="REDACTED"
+              url="jdbc:mysql://localhost:3306/moviedb?autoReconnect=true&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"/>
+<!--              url="jdbc:mysql://ec2-54-146-60-145.compute-1.amazonaws.com:3306/moviedb?autoReconnect=true&amp;useSSL=false"/>-->
+
+
+    <!-- Defines a Data Source Connecting to master instance to write to moviedb-->
+    <Resource name="jdbc/moviedb_write"
+              auth="Container"
+              driverClassName="com.mysql.jdbc.Driver"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              type="javax.sql.DataSource"
+              maxTotal="100" maxIdle="10" maxWaitMillis="10000"
+              username="REDACTED"
+              password="REDACTED"
+              url="jdbc:mysql://ec2-54-146-60-145.compute-1.amazonaws.com:3306/moviedb?autoReconnect=true&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"/>
+<!--              url="jdbc:mysql://localhost:3306/moviedb?autoReconnect=true&amp;useSSL=false"/>-->
+
+
+</Context>

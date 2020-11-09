@@ -1,0 +1,47 @@
+Inconsistency in actors63.xml - bad year value: The Andrews Sisters, n.a.
+Inconsistency in actors63.xml - bad year value: Alec Baldwin, 195x
+Inconsistency in actors63.xml - bad year value: Vincent Ball, *
+Inconsistency in actors63.xml - bad year value: The Beatles, n.a.
+Inconsistency in actors63.xml - bad year value: Halle Berry, 196x
+Inconsistency in actors63.xml - bad year value: The Bowery Boys, n.a.
+Inconsistency in actors63.xml - bad year value: Miriam Brickman, dob
+Inconsistency in actors63.xml - bad year value: Soumitra Chatterjee, 19bb
+Inconsistency in actors63.xml - bad year value: George Clooney, dob
+Inconsistency in actors63.xml - bad year value: The Commodores, n.a.
+Inconsistency in actors63.xml - bad year value: John Crawford, 
+Inconsistency in actors63.xml - bad year value: Joe deRita, 
+Inconsistency in actors63.xml - bad year value: Lynn Frederick, *
+Inconsistency in actors63.xml - bad year value: Charlotte Gainsbourg, *
+Inconsistency in actors63.xml - bad year value: The Little Tough Guys, n.a.
+Inconsistency in actors63.xml - bad year value: Ray Hallam, [1]1905
+Inconsistency in actors63.xml - bad year value: Terry Hatcher, dob
+Inconsistency in actors63.xml - bad year value: Max Haufler, 19bb
+Inconsistency in actors63.xml - bad year value: Dead End Kids, n.a.
+Inconsistency in actors63.xml - bad year value: East Side Kids, n.a.
+Inconsistency in actors63.xml - bad year value: Keystone Kops, n.a.
+Inconsistency in actors63.xml - bad year value: Queen Latifah, 19bb
+Inconsistency in actors63.xml - bad year value: Laurel and Hardy, n.a.
+Inconsistency in actors63.xml - bad year value: Marx Brothers, n.a.
+Inconsistency in actors63.xml - bad year value: David Morrissey, 19bb
+Inconsistency in actors63.xml - bad year value: Mickey Mouse, 19bb
+Inconsistency in actors63.xml - bad year value: Rene Navarre, 18bb
+Inconsistency in actors63.xml - bad year value: The Sons of the Pioneers, n.a.
+Inconsistency in actors63.xml - bad year value: Brad Pitt, dob
+Inconsistency in actors63.xml - bad year value: Moliere Players, n.a.
+Inconsistency in actors63.xml - bad year value: Sarah Polley, 19bb
+Inconsistency in actors63.xml - bad year value: Gilda Radner, *
+Inconsistency in actors63.xml - bad year value: Pamela Reed, *
+Inconsistency in actors63.xml - bad year value: The Ritz-Brothers, n.a.
+Inconsistency in actors63.xml - bad year value: Tanya Roberts, *
+Inconsistency in actors63.xml - bad year value: Howard E. Rollins jr., *
+Inconsistency in actors63.xml - bad year value: Tim Roth, 19bb
+Inconsistency in actors63.xml - bad year value: Claudia Schiffer, 19bb
+Inconsistency in actors63.xml - bad year value: Tony Shalhoub, 19bb
+Inconsistency in actors63.xml - bad year value: Posh Spice, 19bb
+Inconsistency in actors63.xml - bad year value: The Loving Spoonful, n.a.
+Inconsistency in actors63.xml - bad year value: Sting, n.a.
+Inconsistency in actors63.xml - bad year value: Natalie Talmadge, 19bb
+Inconsistency in actors63.xml - bad year value: Fred Thompson, dob
+Inconsistency in actors63.xml - bad year value: The Who, n.a.
+Inconsistency in actors63.xml - bad year value: The Wiere Brothers, n.a.
+Inconsistency in actors63.xml - bad year value: Dianne Wiest, *

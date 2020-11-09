@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fabflix - Search</title>
+
+<!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+
+    <!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
+
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"-->
+<!--          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>MovieDB: Search</h1>
+<br>
+<button onclick=redirectMainPage()>Back to Main Page</button>
+<script>
+function redirectMainPage() {
+    window.location.replace("index.html");
+}
+</script>
+<br>
+<label>Enter your search parameters<br></label>
+<form id="search_form" method="get" action="search">
+    <label>Title</label>
+    <label>
+        <input id="title" name="title" placeholder="Enter movie title" type="text">
+    </label>
+    <br>
+    <label>Year</label>
+    <label>
+        <input id="year" name="year" placeholder="Enter year" type="number">
+    </label>
+    <br>
+    <label>Director</label>
+    <label>
+        <input id="director" name="director" placeholder="Enter director's name" type="text">
+    </label>
+    <br>
+    <label>Star</label>
+    <label>
+        <input id="star" name="star" placeholder="Enter a star's name" type="text">
+        <br>
+    </label>
+    <select id="order" name="order">
+        <option value="rating">Sort by Rating first, then Title</option>
+        <option value="title">Sort by Title first, then Rating</option>
+    </select>
+    <select id="dir" name="dir">
+        <option value="asc">1st parameter - ascending order</option>
+        <option value="desc">1st parameter - descending order</option>
+    </select>
+    <select id="dir2" name="dir2">
+        <option value="asc">2nd parameter - ascending order</option>
+        <option value="desc">2nd parameter - descending order</option>
+    </select>
+    <select id="limit" name="limit">
+        <option value="10">10 items per page</option>
+        <option value="25">25 items per page</option>
+        <option value="50">50 items per page</option>
+        <option value="100">100 items per page</option>
+    </select>
+    <select id="offset" name="offset">
+        <option value="0">1st page</option>
+        <option value="1">2nd page</option>
+        <option value="2">3rd page</option>
+        <option value="3">4th page</option>
+    </select>
+    <br>
+    <input type="submit" value="Search">
+</form>
+<form ACTION="shopping-cart" id="checkout" METHOD="get">
+    <input type="submit" value="Go to Checkout Page">
+</form>
+<!--<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>-->
+
+<!-- Using jQuery -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+
+<!-- include jquery autocomplete JS  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.7/jquery.autocomplete.min.js"></script>
+
+<script type='text/javascript' src='search.js'></script>
+<script type='text/javascript' src='checkout.js'></script>
+</body>
+</html>

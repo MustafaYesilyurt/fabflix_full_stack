@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF">
+
+    <TextView
+            android:id="@+id/title"
+            android:textSize="28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E02416" android:layout_marginLeft="10dp"
+    />
+
+    <TextView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" android:textSize="24sp"
+            android:layout_marginLeft="10dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/director" android:textSize="24sp"
+            android:textColor="#000000" android:layout_marginLeft="10dp"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/rating" android:textSize="24sp"
+            android:textColor="#A525E6" android:layout_marginLeft="10dp"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/genres" android:textSize="22sp"
+            android:textColor="#9B7304" android:layout_marginLeft="10dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/stars" android:textSize="22sp"
+            android:textColor="#4F65DF" android:layout_marginLeft="10dp"/>
+
+</LinearLayout>

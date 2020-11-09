@@ -1,0 +1,39 @@
+Inconsistency in mains243.xml - bad year value: LB9, El grand cavalcodos, 19yy
+Inconsistency in mains243.xml - bad year value: OW9, A Touch of Evil, 195819x11998
+Inconsistency in mains243.xml - null title value: null, null
+Inconsistency in mains243.xml - null year value: null, null
+Inconsistency in mains243.xml - bad year value: WS45, Catherine of Russia, 19yy
+Inconsistency in mains243.xml - null title value: null, null
+Inconsistency in mains243.xml - null year value: null, null
+Inconsistency in mains243.xml - null title value: null, null
+Inconsistency in mains243.xml - null year value: null, null
+Inconsistency in mains243.xml - bad year value: AS22, Morgan Stewart`s Coming Home, 199x
+Inconsistency in mains243.xml - bad year value: AS32, Raging Angels, 199x
+Inconsistency in mains243.xml - null title value: null, null
+Inconsistency in mains243.xml - null year value: null, null
+Inconsistency in mains243.xml - null title value: null, null
+Inconsistency in mains243.xml - null year value: null, null
+Inconsistency in mains243.xml - null title value: null, null
+Inconsistency in mains243.xml - null year value: null, null
+Inconsistency in mains243.xml - bad year value: RHd2, Stop Train 349, 199x
+Inconsistency in mains243.xml - bad year value: IAv12, Karate Kid, 199x
+Inconsistency in mains243.xml - bad year value: MS0, The Eternal City, 196x
+Inconsistency in mains243.xml - null title value: null, null
+Inconsistency in mains243.xml - null year value: null, null
+Inconsistency in mains243.xml - null title value: null, null
+Inconsistency in mains243.xml - null year value: null, null
+Inconsistency in mains243.xml - null title value: null, null
+Inconsistency in mains243.xml - null year value: null, null
+Inconsistency in mains243.xml - bad year value: WiW30, Buena Vista Social Club, 19yy
+Inconsistency in mains243.xml - bad year value: DLy25, Mulholland Drive, 19yy
+Inconsistency in mains243.xml - bad year value: AEy13, Sarabande, 19yy
+Inconsistency in mains243.xml - null title value: null, null
+Inconsistency in mains243.xml - null year value: null, null
+Inconsistency in mains243.xml - null title value: null, null
+Inconsistency in mains243.xml - null year value: null, null
+Inconsistency in mains243.xml - bad year value: CsS15, Fairy Tale: A True Story, 199x
+Inconsistency in mains243.xml - bad year value: KDo1x, , 199x
+Inconsistency in mains243.xml - bad year value: TdC13, Jerry and Tom, 19yy
+Inconsistency in mains243.xml - bad year value: Z9590, The Shanghai Triad, 19yy
+Inconsistency in mains243.xml - bad year value: AbK15, Taste of Cherry, 19yy
+Inconsistency in mains243.xml - bad year value: MJu15, All is Routine, 19yy
