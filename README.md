@@ -6,10 +6,10 @@ Note that none of the AWS instances are on, so testing the code is not possible,
 
 Here are the links in order:
 Project 1: https://youtu.be/ljfn_pm5oGQ <br>
-Project 2: https://youtu.be/cFacsYlHPKE
-Project 3: https://youtu.be/AAnl_d9FUpI
-Project 4: https://youtu.be/cFYqSttesQ0
-Project 5: https://youtu.be/CPMghbPXJzA
+Project 2: https://youtu.be/cFacsYlHPKE <br>
+Project 3: https://youtu.be/AAnl_d9FUpI <br>
+Project 4: https://youtu.be/cFYqSttesQ0 <br>
+Project 5: https://youtu.be/CPMghbPXJzA <br>
 Project 5 redux (a bit shorter): https://youtu.be/dndkXLzjbEE
 
 
