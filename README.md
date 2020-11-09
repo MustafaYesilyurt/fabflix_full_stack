@@ -5,7 +5,7 @@ This was a project I did for my undergraduate degree at UC Irvine.
 Note that none of the AWS instances are on, so testing the code is not possible, but there are several links to Youtube videos that demo the various functions of the code. Feel free to check them out!
 
 Here are the links in order:
-Project 1: https://youtu.be/ljfn_pm5oGQ
+Project 1: https://youtu.be/ljfn_pm5oGQ <br>
 Project 2: https://youtu.be/cFacsYlHPKE
 Project 3: https://youtu.be/AAnl_d9FUpI
 Project 4: https://youtu.be/cFYqSttesQ0
