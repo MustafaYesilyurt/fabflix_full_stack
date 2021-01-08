@@ -17,16 +17,7 @@ Below are detailed descriptions or answers to questions that were required for t
 
 Project 5:
 
-YouTube link: https://youtu.be/CPMghbPXJzA
-NOTE: This demo is 20 minutes and 22 seconds long and I stopped the third JMeter test at 4 minutes and 35 seconds because I was running out of time. The reason I took so long is because I spent time in the beginning showing that the repos were freshly cloned and using newly built war files. That wasn't explicitly required for this homework, but I did it anyway out of habit and it cost me. If you would like me to rerecord the demo to have it be shorter, I am open to doing that.
-EDIT: I went ahead and rerecorded my project 5 demo. Here is the link: https://youtu.be/dndkXLzjbEE
-
-Unfortunately, a lot of my time was spent trying to fix the problems the graders were having with my submission of Project 4, so I wasn't able to get to all 
-of this in time. I am, however, on my way to finishing the last task. I hope I will also be able to find the persisting problem in my front end code. So far, I was able to remove
-the "TypeError: t is not defined" error by reordering my script declarations (putting jquery before bootstrap did the trick) but I am still facing problems in that I am unable to
-navigate to other pages. However, that doesn't really have any bearing on this assignment or the demo!
-
-EDIT: have fixed that problem. Project 4 should be okay now.
+YouTube link: https://youtu.be/dndkXLzjbEE
 
 ----------------------
 
@@ -229,7 +220,7 @@ To deploy the Android application, copy the p4-android folder into the IntelliJ 
 
 I only did the fuzzy search for the Android app. It would have been a very involved and lengthy process to sift through and make changes to my source, HTML, and JS files in many places of my browser application to enable fuzzy search while also keeping the normal search available. The changes in my app were far fewer and thus induced far less headache, although I still needed to extend the timeout threshold to be thirty seconds rather than the default in order to allow it to work; the Levenshtein Edit Distance Algorithm has a very high time-complexity and the only way to really make it work quickly is to first create a list of all the keywords across all the titles and, for every movie, create a separate column detailing the edit distance for each keyword against the movie's title; this doesn't even account for combinations of keywords, like "dark knight" in addition to both "dark" and "knight". There is a serious amount of preprocessing time and indexing/storage space required to make the LEDA time-efficient.
 
-My usage of the LEDA is quite a bit less-involved than that optimal strategy; I run the algorithm through my table for a given user input and only select the ones that have an edit distance value smaller than an integer value that dyanamically increases with the title's length: 2 if it's less than 9, else 4 if it's less than 17, else 7 if it's less than 25, else a third of the title's length if it's 25 or more; The algorithm and a commented example of its use are included in "levenshtein.sql".
+My usage of the LEDA is quite a bit less-involved than that optimal strategy; I run the algorithm through my table for a given user input and only select the ones that have an edit distance value smaller than an integer value that dynamically increases with the title's length: 2 if it's less than 9, else 4 if it's less than 17, else 7 if it's less than 25, else a third of the title's length if it's 25 or more; The algorithm and a commented example of its use are included in "levenshtein.sql".
 
 More importantly, though, you don't have to use it! There is a separate button on the search page of the Android app that says "fuzzy"; this will execute the fuzzy search. If you don't want to waste some 22 seconds each time you search, stick with the button reading "search".
 
@@ -378,8 +369,7 @@ and " are replaced with a backtick.
 - According to the DTD, the term "s a" is used when the actor's name is not known. I also found instances where the name
 said "no_actor". These are all removed.
 
-- I also found one entry in the cast list reading "midget actor". I don't think we'd want something that offensive in our 
-application.
+- I also found one entry in the cast list reading "midget actor". I don't think we'd want derogatory terms in our application.
 
 Report:
 
@@ -2620,7 +2610,7 @@ Project 2:
 YouTube link: https://youtu.be/cFacsYlHPKE
 
 Deployment on AWS:
--  In my create table statements I made for this project, I used the row_number() function and apparently MySQL 5.7 doesn't like this. I eventually found a way to get around this, but I was unable to deploy my application remotely in time; that's on me for not starting early enough. However, as you can see by my GitHub code and my demo, I fulfilled all the requirements, so I hope I can receive at least some credit. If not, then fine, whatever. At least I'm caught up and learned some new things.
+-  In my create table statements I made for this project, I used the row_number() function and apparently MySQL 5.7 doesn't like this. I eventually found a way to get around this.
 
 Steps for deployment:
 1) Run an Ubuntu 16.04 EC2 AWS instance with Maven, Java 8, MySQL 5.7, and Tomcat 8.5.53 installed. I also manually installed Java FX so I could use javafx.util.Pair; I wrote a Piazza post about this ()
